@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+      <meta charset=utf-8>
+      <title> Mijn eerste formulier </title>
+      <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+
+<body>
+
+    <header>
+        <h1>Aanmelden</h1>
+    </header>
+
+    <p> Bent u geïnteresseerd in samenwerken met CMD Amsterdam? Dat kan!
+    Tijdens de opleiding werken studenten aan projecten voor echte opdrachtgevers. Ook
+    lopen de studenten stage, in het tweede en afstudeerjaar.
+    CMD Amsterdam zoekt altijd naar positieve verbindingen met de creatieve stad
+    Amsterdam.</p>
+
+    <p> Voor het aanmelden van stageplekken of projecten kunt u onderstaand formulier invullen.
+    Wij nemen zo nodig contact met u op nadat het formulier is verstuurd.
+    Voor vragen of opmerkingen kunt u contact [link: contact] met ons op.</p>
+
+   <form>
+        <fieldset>
+            <legend> Contactgegevens:</legend>
+
+            <label for='Naam'>Naam: </label>
+            <input type='text' id='Naam'> <br> <br>
+            <label for='Bedrijf'>Bedrijf: </label>
+            <input type='text' id='Bedrijf'> <br> <br>
+            <label for='Adres'> Adres: </label>
+            <input type='text' id='Adres'> <br> <br>
+            <label for='Postcode'> Postcode: </label>
+            <input type='text' id='Postcode'> <br> <br>
+            <label for='Plaats'> Plaats: </label>
+            <input type='text' id='Plaats'> <br> <br>
+            <label for='Telefoon'> Telefoon: </label>
+            <input type='tel' id='Telefoon'> <br> <br>
+            <label for='Email'> Email: </label>
+            <input type='email' id='Email'> <br> <br>
+        </fieldset>
+
+        <fieldset>
+
+            <legend>Ik wil mijn aanmelden: </legend>
+
+            <select name="keuze">
+                <option value="project">Voor een project</option>
+                <option value="stage">Als stagebedrijf</option>
+            </select>
+
+        </fieldset>
+
+        <fieldset>
+
+             <legend>Project</legend>
+
+                 <label for='Titel'> Titel: </label>
+                <input type='text' id='Titel'> <br> <br>
+                <label for='Opdrachtomschrijving'> Opdrachtomschrijving: </label>
+                <input type='text' id='Opdrachtomschrijving'> <br> <br>
+                <label for='Doelgroepomschrijving'> Doelgroepomschrijving: </label>
+                <input type='text' id='Doelgroepomschrijving'> <br> <br>
+                <label for='Doelstelling/intentie_van_het_project'> Doelstelling \ intentie van het project: </label>
+                <input type='text' id='Doelstelling/intentie_van_het_project'> <br> <br>
+                <label for='Looptijd'> Looptijd: </label>
+                <input type='text' id='Looptijd'> <br> <br>
+                <label for='Deadline'> Deadline: </label>
+                <input type='text' id= 'Deadline'> <br> <br>
+
+        </fieldset>
+
+        <fieldset>
+
+            <legend> Geschikt voor </legend>
+
+                <input type='radio' name='geschiktvoorproject' id='tweedejaarsproject' value='twee'>
+                <label for='tweedejaarsproject'>Tweedejaars Studenten</label> <br><br>
+                 <input type='radio' name='geschiktvoorproject' id='afstudeerproject' value='afstudeer'>
+                <label for='tweedejaarsproject'>Afstudeer Studenten</label> <br><br>
+                 <input type='radio' name='geschiktvoorproject' id='onbekendproject' value='onbekend'>
+                <label for='tweedejaarsproject'>Onbekend</label> <br><br>
+
+       </fieldset>
+
+        <fieldset>
+           <legend>Geschikt voor</legend>
+
+            <select name="keuze">
+                <option value="eerstejaars">Eerstejaars Studenten</option>
+                <option value="tweedejaars">Tweedejaars Studenten</option>
+                <option value="derdejaars">Derdejaars Studenten</option>
+                <option value="afstudeer">Afstudeer Studenten</option>
+                <option value="onbekend">Onbekend</option>
+            </select>
+
+
+        </fieldset>
+
+    </form>
+</body>
+</html>
